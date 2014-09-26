@@ -28,7 +28,7 @@ import org.openide.util.NbBundle.Messages;
 @ActionReferences({
     @ActionReference(path = "Menu/Tools", position = 0),
     @ActionReference(path = "Toolbars/Build", position = 500),
-    @ActionReference(path = "Shortcuts", name = "S-F10")
+    @ActionReference(path = "Shortcuts", name = "DS-F11")
 })
 @Messages("CTL_KillSpringBoot=Kill spring boot")
 public final class RunShellCommand implements ActionListener{
